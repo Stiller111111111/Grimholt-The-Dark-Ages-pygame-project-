@@ -1,0 +1,78 @@
+Dokumentation
+
+29.05:
+grundbausteine des spiels hinzugefügt. Neue sachen: Fenster öffnet sich in Vollbild, erste karte
+(ohne alles, nur ein paar isometrische rechtecke)
+
+ziel für nächsten tag: boden malen, kamera erstellen
+
+30.05:
+der boden ist gemalt und ich habe ein paar bäume und steine hinzugefügt. ich kann jetzt in meiner game.py datei die größe 
+meiner welt verändern. die kamera bewegt sich, aber wenn ich zu weit nach unten oder rechts gehe, 
+kommt ein fehler mit meiner grid_pos.
+
+Ziel: Hud bauen und gebäude hinzufügen
+
+31.05:
+habe ein hud gemacht und chat gbt hat mir geholfen den bug zu fixen(die bilder werden im hud mithilfe von einer funktion skaliert). 
+man kann jetzt die ersten gebäude platzieren und ich habe die welt mit perlin noise generiert. man kann gebäude auch nichtmehr 
+in bäumen oder steinen platzieren.
+
+01.06:
+ich habe es geschafft einen knopf zum abreißen zu machen. mit dem gleichen prinzip habe ich dann auch noch einen zum bäume fällen gemacht. 
+die gebäude werden aber nichtmehr gemalt(ich habe buttons für die gebäude gemacht)
+
+ziel: bug mit gebäuden fixen (kollision geht aber komischerweise trotzdem noch)
+
+02.06:
+habe nur ein paar grafiken gemacht und die gebäude können sich jetzt updaten. also mit jedem frame +1. das ist dann wichtig, dafür dass ich holz etc. bekomme.
+habe auch wasser mit dem gleichen prinzip gemacht(perlin noise). habe das spiel auch noch etwas anschaulicher gebacht. 
+hotbar ist jetzt schwarz und rechts un der seite.gebäude info in der mitte und die resourcen leiste ist etwas von dem rand entfernt.
+
+Ziel: bug mit den gebäuden fixen
+
+03.06: 
+habe den bug gefixt, die zeile war nur falsch eingeschogben (wegen vorherigem "pass" gab es keinen fehler). 
+
+
+15.06:
+ich habe "crops" hinzugefügt und die ersten schritte für das essen hinzugefügt
+
+ziel: "food" soll einen effekt auf die "happiness" haben 
+
+
+19.06:
+food nimmt jetzt durch die effektive anzahl der villiger ab, jeder villiger verbraucht in einem Zyklus (ca. 15sek) 1 food. 
+jedes mal wenn villiger nicht genug food haben, nimmt happiness ab. happiness nimmt jedoch noch etwas zu schnell ab,
+man hat noch keine möglichkeit diese zu regenerieren.
+
+ziel: happiness soll langsamer sinken und soll sich regenerieren, wenn villiger gegessen haben
+
+20.06:
+happiness kann man jetzt regenerieren und sie sinkt etwas langsamer. jedes mal, wenn villiger gegessen haben kriegt man +1 villiger. 
+da muss man dann logischer weise aufpassen, dass man trotzdem genug essen hat, um ein paar mehr villiger als aktuell zu versorgen, 
+denn wenn man von 60% auf 70% happiness kommt, dann gibt es auch mehr villiger die man versorgen muss,etc.. 
+Außerdem habe ich ein erstes kleines statmenu hinzugefügt. außerdem habe ich versucht, passend zum namen, 
+die ganze zeit alles dunkel zu machen. dann sollte nur licht kommen, wenn man eine fackel baut. das hat auch ganz gut geklapt, 
+aber es hat unmengen an rechenleistung verbraucht, also mussste ich das ganze entfernen.
+
+ziel: settings menu erstellen und musik einfügen
+
+21.06: 
+habe ein paar menus gemacht(settings und game over). das game over menu komt aber nur, wenn man 0 Villiger hat. 
+Musik habe ich auch hinzugefügt (kann man in den settings aus machen)
+
+Ziel: noch ein paar gebäude hinzufügen, vor allem für essen. Außerdem soll man gebäude wie das treehouse nur in der nähe 
+von bäumen bauen können, etc.
+
+22.06:
+ich habe vorallem gebäude für recourcen hinzugefügt (Fruitshop, Fisherman, etc.), 
+ebenfalls kann man das treehouse nur neben bäumen, die stonemasconry nur neben steinen und der fisherman nur neben wasser platzieren.
+
+bin mit dem spiel fertig geworden, läuft flüssig auf 60fps ohne ruckler und braucht nicht zu viel rechenleistung.
+
+
+
+Wichtig!:
+ich habe das spiel im Vollbild modus programiert, das heisst, dass ich alles mit prozentualen angaben berechnen musste(wo was ist). 
+Deshalb kann es sein, dass das spiel auf einem anderen bildschorm format komisch aussieht. dieser fehler sollte aber nich auftreten

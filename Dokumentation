@@ -1,8 +1,5 @@
 Dokumentation
 
-im voraus, die grundlagen des spiels habe ich mir mithilfe des pygame tutorials auf youtube für einen citybuilder beigebracht.
-vorher hatte ich ein super mario spiel.wegen eines fehlers meinerseits, habe ich dieses aber mit einer datei ersetzt.
-
 29.05:
 grundbausteine des spiels hinzugefügt. Neue sachen: Fenster öffnet sich in Vollbild, erste karte
 (ohne alles, nur ein paar isometrische rechtecke)

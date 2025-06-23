@@ -1,0 +1,8 @@
+die welt ist 100x100 blöcke groß, falls man das ändern möchte(bei rucklern, etc.) muss man in game.py->def:__init__->#world-> die hundert durch eine andere Zahl ersetzen.
+
+die haupt aufgabe des spiels ist, so viele Villiger wie möglich zu bekommen und sein eigenes kleines mittelalter imperium auf zubauen.
+im spiel kann sich bewegen, indem man mit dem maus cursor an den rand des bildschirms geht.
+im build hud (ganz rechts auf dem bildschirm) gibt es eine scroll funktion welche bei der straße aufhört. Wichtig, die scroll funktion funktioniert, ist jedoch sehr ruckelig manchmal geht es beim ersten mal und manchmal erst beim zehnten mal. es hat was mit den Fps zu tun, also desto mehr Fps das spiel hat, desto besser ist das scroll feature.
+eine rote outline heisst man kann ein gebäude nicht platzieren, das gegenteil ist für weiß der fall.
+bevor man gebäude platziert muss man jedoch zunächst eine Straße platzieren. dann kann man in einem radius von 4Blöcken bauen. das treehous lästt sich nur an bäumen platzieren, die stonemasconry nur an steine und der Fisherman nur an Wasser.
+wenn man den deforest oder demolish buton anklickt kann man bäume fällen oder gebäude abreißen. aus dem modus kommt man mit einem rechtsklick wieder raus
